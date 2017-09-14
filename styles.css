@@ -1,4 +1,5 @@
 
+
 body{
   background-color: rgb(240,255,240);
   margin: 0 auto;
@@ -24,11 +25,11 @@ header h1{
 .container section{
   border: 2px orange solid;
   margin: 30px;
-
+  text-align: center;
 }
 .container section div {
   margin: 5px;
-
+  display: inline-block;
 }
 .container section div h3{
   font-size: 2vw;
@@ -48,12 +49,12 @@ header h1{
 }
 .features div, .desserts div {
   width: 42%;
-  float: left;
+  /*float: left;*/
 
 }
 .combo-deal div{
   width: 30%;
-  float: left;
+  /*float: left;*/
 }
 
 footer{
@@ -87,8 +88,8 @@ footer{
   height: 10vw;
   width: 20vw;
   position: absolute;
-  bottom: 40%;
-  left: 40%;
+  bottom: 42%;
+  left: 38%;
   z-index: 1;
   font-size: 3vw;
   text-decoration: none;
