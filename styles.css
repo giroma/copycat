@@ -1,0 +1,98 @@
+
+body{
+  background-color: rgb(240,255,240);
+  margin: 0 auto;
+  max-width: 800;
+
+}
+
+header{
+  background-color: #FCA328;
+  padding: 30px;
+  text-align: center;
+  border-bottom: black solid 2px;
+}
+header h1{
+  font-size: 5vw;
+}
+.container{
+  background-color: rgb(240,255,240);
+  /*max-width: 800px;*/
+  margin:0 auto;
+
+}
+.container section{
+  border: 2px orange solid;
+  margin: 30px;
+
+}
+.container section div {
+  margin: 5px;
+
+}
+.container section div h3{
+  font-size: 2vw;
+  text-align: center;
+  margin-bottom: 4px;
+}
+.container h2{
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 5vw;
+}
+.features, .combo-deal, .desserts {
+  overflow: hidden;
+  position: relative;
+}
+.features div, .desserts div {
+  width: 42%;
+  float: left;
+
+}
+.combo-deal div{
+  width: 30%;
+  float: left;
+}
+
+footer{
+  height: 15vw;
+  width: 15vw;
+  text-align: center;
+  border: solid 2px white;
+  color: white;
+  padding: 2vw;
+  font-size: 2vw;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #33A85E;
+}
+.cake, .cats-in-blanket, .cupcake, .cookies{
+  position: relative;
+}
+.desserts h4{
+  position: absolute;
+  background-color: black;
+  top: 3vw;
+  right: 3vw;
+  color: white;
+  font-size: 1.5vw;
+  padding: 5px;
+}
+
+.desserts h2{
+  background-color: white;
+  height: 10vw;
+  width: 20vw;
+  position: absolute;
+  bottom: 40%;
+  left: 40%;
+  z-index: 1;
+  font-size: 3vw;
+  text-decoration: none;
+  border: dotted 5px red;
+  border-radius: 20%;
+
+}
